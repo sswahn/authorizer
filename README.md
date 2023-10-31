@@ -36,5 +36,9 @@ Before deploying, make sure to configure the following:
 ## Usage  
 
 ```javascript
+import { secureCognitoAuthorizer } from '@sswahn/secureCognitoAuthorizer'
+
+export const handler = async (event, context, callback) => {
   secureCognitoAuthorizer(event, callback)
+}
 ```
