@@ -22,12 +22,10 @@ Before deploying, make sure to configure the following:
        {
          "Effect": "Allow",
          "Action": [
-           "cognito-idp:GetUser",  // Example permission for GetUserCommand
-           // Add other relevant permissions here
+           "cognito-idp:GetUser",
          ],
          "Resource": [
            "arn:aws:cognito-idp:YOUR_REGION:YOUR_ACCOUNT_ID:userpool/YOUR_USER_POOL_ID"
-           // Add other relevant resource ARNs here
          ]
        }
      ]
@@ -42,3 +40,6 @@ export const handler = async (event, context, callback) => {
   secureCognitoAuthorizer(event, callback)
 }
 ```
+
+## License
+secureCognitoAuthorizer is [MIT Licensed](https://github.com/sswahn/secureCognitoAuthorizer/blob/main/LICENSE)
