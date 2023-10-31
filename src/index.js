@@ -1,1 +1,1 @@
-export { authorizer } from './core/authorizer.js'
+export { secureCognitoAuthorizer } from './core/secureCognitoAuthorizer.js'
