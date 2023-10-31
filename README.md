@@ -15,7 +15,7 @@ Before deploying, make sure to configure the following:
 
 3. **IAM Permissions**: Ensure that the IAM role associated with this Lambda function has the necessary permissions to interact with AWS Cognito. Specifically, the Lambda function should have permissions to execute the `GetUserCommand` and any other relevant AWS SDK operations. Sample IAM policy:
 
-   ```json
+```json
    {
      "Version": "2012-10-17",
      "Statement": [
@@ -32,4 +32,9 @@ Before deploying, make sure to configure the following:
        }
      ]
    }
+```
+## Usage  
+
+```javascript
+  secureCognitoAuthorizer(event, callback)
 ```
