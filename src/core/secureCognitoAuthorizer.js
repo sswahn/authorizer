@@ -1,11 +1,11 @@
 import { CognitoIdentityProviderClient, GetUserCommand } from '@aws-sdk/client-cognito-identity-provider'
 
-export const secureCognitoAuthorizer = async (event, callback) => {
+export const secureCognitoAuthorizer = async (name, event, callback) => {
   try {
     if (!event.headers.Cookie || !event.headers.Cookie.includes('id=')) {
       callback('Unauthorized')
     }
-    const token = event.headers.Cookie.split('id=')[1].split(';')[0]
+    const token = event.headers.Cookie.split(`${name}=`)[1].split(';')[0]
     const client = new CognitoIdentityProviderClient()
     const command = new GetUserCommand({ AccessToken: token })
     await client.send(command)
