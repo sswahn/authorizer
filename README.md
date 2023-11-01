@@ -37,7 +37,7 @@ Before deploying, make sure to configure the following:
 import { secureCognitoAuthorizer } from '@sswahn/secureCognitoAuthorizer'
 
 export const handler = async (event, context, callback) => {
-  secureCognitoAuthorizer(event, callback)
+  secureCognitoAuthorizer('cookieName', event, callback)
 }
 ```
 
