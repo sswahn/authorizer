@@ -34,12 +34,12 @@ Before deploying, make sure to configure the following:
 ## Usage  
 
 ```javascript
-import { secureCognitoAuthorizer } from '@sswahn/secureCognitoAuthorizer'
+import { authorizer } from '@sswahn/authorizer'
 
 export const handler = async (event, context, callback) => {
-  secureCognitoAuthorizer('cookieName', event, callback)
+  authorizer('cookieName', event, callback)
 }
 ```
 
 ## License
-secureCognitoAuthorizer is [MIT Licensed](https://github.com/sswahn/secureCognitoAuthorizer/blob/main/LICENSE)
+secureCognitoAuthorizer is [MIT Licensed](https://github.com/sswahn/authorizer/blob/main/LICENSE)
