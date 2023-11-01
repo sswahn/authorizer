@@ -1,0 +1,21 @@
+{
+  "name": "@sswahn/authorizer",
+  "version": "1.0.0-beta.0",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "authorizer",
+    "HTTP cookie",
+    "AWS",
+    "API Gateway",
+    "Cognito",
+    "Lambda"
+   
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sswahn/authorizer"
+  }
+}
