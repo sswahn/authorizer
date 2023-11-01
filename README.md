@@ -42,4 +42,4 @@ export const handler = async (event, context, callback) => {
 ```
 
 ## License
-secureCognitoAuthorizer is [MIT Licensed](https://github.com/sswahn/authorizer/blob/main/LICENSE)
+Authorizer is [MIT Licensed](https://github.com/sswahn/authorizer/blob/main/LICENSE)
