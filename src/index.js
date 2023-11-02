@@ -1,1 +1,2 @@
-export { authorizer } from './core/authorizer.js'
+import authorizer from './core/authorizer.js'
+export default authorizer
