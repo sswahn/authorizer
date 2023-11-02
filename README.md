@@ -34,7 +34,7 @@ Before deploying, make sure to configure the following:
 ## Usage  
 
 ```javascript
-import { authorizer } from '@sswahn/authorizer'
+import authorizer from '@sswahn/authorizer'
 
 export const handler = async (event, context, callback) => {
   authorizer('cookieName', event, callback)
