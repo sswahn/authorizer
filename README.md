@@ -7,7 +7,7 @@ Designed for use with AWS Lambda as a custom authorizer for AWS API Gateway to a
 
 ## Usage  
 
-Cookie value should be a valid Cognito AccessToken.
+HTTP Cookie value should be a valid Cognito AccessToken.
 
 ```javascript
 import authorizer from '@sswahn/authorizer'
