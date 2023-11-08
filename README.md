@@ -1,4 +1,4 @@
-# Authorizer
+# Authorizer · [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sswahn/authorizer/blob/main/LICENSE) ![npm version](https://img.shields.io/npm/v/@sswahn/authorizer)
 An AWS Cognito authorizer for APIGateway that uses **HTTP Cookies**.
 
 ## Overview
